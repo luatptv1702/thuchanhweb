@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="title">Online Video Downloader</h1>
+
+        <div class="class form-group">
+            <div class="bgr">
+                <input class="show_case" type="text" placeholder="Past your video link here" style="background-color: #fff;">
+                <button class="btn btn-danger"><span>Tải về</span></button>
+            </div>
+        </div>
+
+
+        <div class="border">
+            <div class="dowload">
+                <p>Download video as:</p>
+            </div>
+            <div id="convert-result" role="alert" class="row col-lg-8 col-md-10 col-12 mx-auto mt-5 alert alert-primary shadow-lg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 order-2">
+                            <div class="col-12 p-0 m-0">
+                                <div class="tabs-header row"><a class="video-title col-12 m-0 active-tab"><span><i class="fab fa-youtube"></i> Video </span></a></div>
+                            </div>
+                            <div class="row m-0">
+                                <div class="d-lg-block p-0 col-12">
+                                    <div id="myTabContent" class="tab-content">
+                                        <div id="nav-mp4" class="tab-pane active show">
+                                            <table cellspacing="0" class="table table-sm mb-0">
+                                                <tr>
+                                                    <td scope="row"><span><strong>360</strong>.mp4</span>
+                                                        <!---->
+                                                    </td>
+                                                    <td class="align-middle"><a id="download-mp4-360-audio" class="btn"><i class="fas fa-download"></i>
+            Download
+        </a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row"><span><strong>1080</strong>.webm</span> <span class="no-audio-icon"><i class="fas fa-volume-mute"></i></span></td>
+                                                    <td class="align-middle"><a id="download-webm-1080-no-audio" class="btn"><i class="fas fa-download"></i>
+            Download
+        </a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="row"><span><strong>1080</strong>.mp4</span> <span class="no-audio-icon"><i class="fas fa-volume-mute"></i></span></td>
+                                                    <td class="align-middle"><a id="download-mp4-1080-no-audio" class="btn"><i class="fas fa-download"></i>
+            Download
+        </a></td>
+                                                </tr>
+                                            </table>
+                                            <div class="show-more-button"><span>Show more</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
